@@ -12,8 +12,8 @@ const Menu = () => {
     </ul>
   );
 };
-export const loader = async () => {
-  const menu = await getMenu();
+export const loader = async ({ params }) => {
+  const menu = await getMenu(params.orderId);
   return menu;
 };
 
