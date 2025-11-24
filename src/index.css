@@ -1,2 +1,7 @@
 @import 'tailwindcss/preflight';
 @import 'tailwindcss';
+:root {
+  --primary: #1a73e8;
+  --secondary: #ff4081;
+  --dark: #111111;
+}

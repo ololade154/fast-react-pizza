@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const CartOverview = () => {
   return (
-    <div>
+    <div className="bg-(--secondary)">
       <p>
         <span>23 pizzas</span>
         <span>$23.45</span>
