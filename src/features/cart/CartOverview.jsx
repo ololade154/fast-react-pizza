@@ -7,7 +7,7 @@ const CartOverview = () => {
         <span>23 pizzas</span>
         <span>$23.45</span>
       </p>
-      <Link to="/cart" className="font-semibold ">
+      <Link to="/cart" className="font-semibold  sm:bg-(--secondary)">
         Open cart &rarr;
       </Link>
     </div>

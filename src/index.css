@@ -1,7 +1,11 @@
-@import 'tailwindcss/preflight';
 @import 'tailwindcss';
-:root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* :root {
   --primary: #1a73e8;
   --secondary: #ff4081;
   --dark: #111111;
-}
+} */

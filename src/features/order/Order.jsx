@@ -47,6 +47,7 @@ const Order = () => {
         {priority && <p>Price priority: {formatCurrency(priorityPrice)}</p>}
         <p>To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}</p>
       </div>
+      <button>hello</button>
     </div>
   );
 };
