@@ -10,7 +10,7 @@ const AppLayout = () => {
     <div className="layout">
       {isLoading && <Loader />}
       <Header />
-      <main>
+      <main className="mt-2">
         {/* <h1>main content</h1> */}
         <Outlet />
       </main>

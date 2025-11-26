@@ -27,8 +27,8 @@ const Cart = () => {
   const cart = fakeCart;
 
   return (
-    <div>
-      <Link to="/menu">&larr; Back to menu</Link>
+    <div className="bg-red-400 ">
+      {/* <Link to="/menu">&larr; Back to menu</Link>
 
       <h2>Your cart, %NAME%</h2>
       <div className="flex items-end justify-between">
@@ -38,13 +38,46 @@ const Cart = () => {
         <button className="px-8 py-4 bg-blue-600 text-white rounded-full text-sm w-24">
           Clear cart
         </button>
+      </div> */}
+      <div className="grid grid-cols-3 gap-6 p-8 ">
+        <div className=" p-4 ">
+          <img
+            src="./src/images/Caesar Salad.svg"
+            alt="caesar salad image"
+            className="w-16 h-16"
+          ></img>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            necessitatibus impedit maiores!
+          </p>
+        </div>
+        <div>
+          <img
+            src="./src/images/Greek Salad.svg"
+            alt="Greek salad image"
+            className="w-16 h-16"
+          ></img>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            soluta iusto minima incidunt adipisci, unde molestiae vitae.
+            Aliquid, nisi totam laboriosam vitae atque fugit libero eum aperiam
+            veritatis ratione cupiditate!
+          </p>
+        </div>
+        <div>
+          <img
+            src="./src/images/Mediterranean Cobb salad.svg"
+            alt="mediterranean cobb salad"
+            className="w-16 h-16"
+          ></img>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cum
+            dolorum, sint voluptatibus vel necessitatibus. Ducimus ipsa dicta
+            deleniti magni.
+          </p>
+        </div>
       </div>
-      <button className=" px-8 py-4 bg-blue-600 text-white rounded-full text-sm w-24">
-        Hello
-      </button>
-      <button className="px-8 py-4 bg-blue-600 text-white rounded-full text-sm hover:bg-blue-700 w-24">
-        *
-      </button>
     </div>
   );
 };
