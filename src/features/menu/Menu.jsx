@@ -10,6 +10,7 @@ const Menu = () => {
         <MenuItem pizza={pizza} key={pizza.id} />
       ))}
     </ul>
+    
   );
 };
 export const loader = async ({ params }) => {
